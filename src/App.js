@@ -1,11 +1,12 @@
-import './App.css';
+import "./styles/App.scss";
+import AboutMe from "./components/AboutMe";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      Louis' website
-    </div>
+    <>
+       <AboutMe />
+    </>    
   );
-}
+};
 
 export default App;

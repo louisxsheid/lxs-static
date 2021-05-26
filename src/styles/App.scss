@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+///////// ROOT /////////
+body {
+  font-family: "Inconsolata";
+  background-color: white;
+}
+
+///////// AboutMe.tsx /////////
+.about-me-container {
+  display: flex;
+  .whoami-pic {
+    width: 15rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .whoami-skills {
+    display: flex;
+  }
+  .section {
+    padding-right: 0rem;
+  }
+}
+
+///////// NavBar.tsx /////////
+.nav-container {
+  display: flex;
+  padding-top: 2.5rem;
+  padding-left: 2.5rem;
+  width: 100%;
+  .nav-item {
+    display: flex; 
+    padding-right: 2rem;
+    .nav-dot {
+      padding-right: 0.5rem;
+    }
+    .nav-title:hover {
+      color: grey;
+      cursor: pointer;
+    }
+    .nav-title {
+      padding-top: 0.05rem;
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+///////// WhoAmI.tsx /////////
+.whoami-container{
+  padding-left: 2.5rem;
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .whoami-title {
+    font-family: "Farro";
+    font-size: 1.5rem;
+  }
+  .icon-container {
+    display: flex;
+    .icon {
+      padding-right: 2rem;
+      width: 2rem;
+    }
+  }
+}
+
+///////// Skills.tsx /////////
+.skills-title {
+  font-size: 1.25rem;
+  font-family: "Farro";
+  padding-top: 2.5rem;
+  padding-left: 2.5rem;
+
+}
+
+.all-skills-container {
+  padding-left: 6rem;
+  .skills-container {
+    padding-left: 2.5rem;
+    width: 100%;
+    display: grid;
+    //grid-template-columns: auto;
+    .skill {
+      padding-right: 8rem;
+      padding-bottom: 1rem;
+      .sub-title {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+      }
+    }
+  } 
+}
+
+
+///////// Skill.tsx /////////
+.skill-icon-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+  .skill-icon {
+    width: 1rem;
+    padding-right: 0.25rem;
+  }
+}
+
+///////// Experience.tsx /////////
+.experience-container {
+  width: 100%;
+  padding-top: 2.5rem;
+  .experience-title {
+    font-family: "Farro";
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+  }
+  .job-title {
+    font-size: 1.25rem;
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+    a:hover {
+      color: lightgray;
+    }
+  }
+  ul {
+    padding-left: 1.15rem;
+    margin-top: 0.25rem;
+  }
+}
+
+///////// Project.tsx /////////
+.projects-container {
+  padding-left: 2.5rem;
+  padding-top: 2.5rem;
+  .projects {
+    padding-bottom: 4rem;
+  }
+  .projects-title {
+    font-family: 'Farro';
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+///////// Projects.tsx /////////
+.project-container {
+  display: grid;
+  grid-template-columns: 18rem 35rem 10rem auto;
+  .project-img-bg {
+    background-color: lightgray;
+    border: 1px solid black;
+    height: 12rem;
+    width: 12rem;
+    .project-img {
+      width: 12rem;
+      height: 12rem;
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .project-section {
+    .project-description {
+      padding-top: 1rem;
+      margin-right: 4rem;
+      font-size: 0.9rem;
+      text-indent: 1.5rem;
+    }
+    .contributors {
+      padding-top: 1rem;
+      ul {
+        margin-top: 0;
+        padding: 0;
+      }
+      li {
+        padding-bottom: 1rem;
+      }
+    }
+  }
+}
+
+///////// MEDIA QUERIES /////////
+@media only screen and (max-width: 1426px) {
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-container {
+    width: 100%;
+    padding-left: 2.5rem;
+  }
+
+  .skills-container {
+    grid-template-columns: auto auto auto;
+  }
+ 
+
+ 
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-container {
+    grid-template-columns: auto auto;
+    .project-section {
+      padding-bottom: 2rem;
+      padding-right: 2rem;
+      .project-description {
+        margin: 0;
+        padding-top: 1rem;
+      }
+    }
+  }
+ 
+.skills-container {
+    grid-template-columns: auto;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .experience-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  .whoami-skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .project-container {
+    grid-template-columns: auto auto;
+  }
+
+  .projects-container {
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+
+  .nav-container {
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+
+  .section-container {
+    padding-right: 0rem;
+  }
+
+  .whoami-container {
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+
+  .skills-title {
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+
+  .skills-container {
+    //padding-left: 1rem;
+    padding-top: 1rem;
+  }
+.all-skills-container {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .project-container {
+    grid-template-columns: auto;
+  }
+}

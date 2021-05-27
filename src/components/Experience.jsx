@@ -60,7 +60,7 @@ const Experience = () => {
         <ul>
           <li>{`Used Node.js child processes with bash shell scripts automating the remote file transfer process through SSH, quickly generating local assets`}</li>
           <li>{`Implemented Express.js, handling both backend and frontend requests to a Node.js application server`}</li>
-          <li>{`Leveraged Electron framework with functionality of dynamic local Docker Compose files, cloning/updating git repositories written locally to user`}</li>
+          <li>{`Leveraged Electron framework with functionality of dynamic Docker Compose files, cloning/updating git repositories written locally to user`}</li>
           <li>{`Harnessed React to create reusable and modular components and dynamic rerendering from the virtual DOM`}</li>
           <li>{`A secure OAuth 2.0 authentication for user login while utilizing AES for encrypting/decrypting sensitive user data`}</li>
           <li>{`Product developed under tech accelerator OS Labs (opensourcelabs.io)`}</li>

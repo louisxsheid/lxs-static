@@ -2,7 +2,7 @@ import React from "react";
 import { me, githubIcon, linkedIn } from "./iconindex";
 
 const description =
-  "I am a software developer experienced in creating full stack JavaScript / TypeScript applications. Currently learning anything I can.";
+  "I am a software developer experienced in creating full stack JavaScript / TypeScript applications. Currently building a daily event tracker, a full stack web app meant to help organize all the clutter that comes with life (demo in the works).";
 
 const WhoAmI = () => {
   return (

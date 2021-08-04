@@ -20,7 +20,7 @@ import travisIcon from "../assets/icons/travis.svg";
 import jestIcon from "../assets/icons/jest.svg";
 import electronIcon from "../assets/icons/electron.svg";
 import webpackIcon from "../assets/icons/webpack.svg";
-import me from "../assets/louis.jpg";
+import me from "../assets/newlouis.PNG";
 import linkedIn from "../assets/linkedin.png"
 export {
   javascriptIcon,

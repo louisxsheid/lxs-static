@@ -19,7 +19,7 @@ const Projects = () => {
         <div className="projects">
           <Project {...gngData} />
         </div>
-        <div style={{ paddingTop: "4rem" }}>
+        <div style={{ paddingTop: "2rem" }}>
           More projects to be documented...
         </div>
       </div>

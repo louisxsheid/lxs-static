@@ -10,7 +10,7 @@ import {
 
 const stack = [
   {
-    name: "Typescript",
+    name: "TypeScript",
     logo: typescriptIcon,
   },
   {

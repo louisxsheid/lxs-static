@@ -4,7 +4,7 @@ import { me, githubIcon, linkedIn } from "./iconindex";
 const description =
   "I am a software developer experienced in creating full stack JavaScript / TypeScript applications. Currently working as an Associate RF Engineer and Software Developer at K&M Systems.";
 
-const WhoAmI = (): JSX.Element => {
+const WhoAmI = () => {
   return (
     <div className="whoami-container">
       <div className="whoami-title">Louis Xavier Sheid III</div>

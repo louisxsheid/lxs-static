@@ -2,9 +2,9 @@ import React from "react";
 import { me, githubIcon, linkedIn } from "./iconindex";
 
 const description =
-  "I am a software developer experienced in creating full stack JavaScript / TypeScript applications. Currently building a daily event tracker, a full stack web app meant to help organize all the clutter that comes with life (demo in the works).";
+  "I am a software developer experienced in creating full stack JavaScript / TypeScript applications. Currently working as an Associate RF Engineer and Software Developer at K&M Systems.";
 
-const WhoAmI = () => {
+const WhoAmI = (): JSX.Element => {
   return (
     <div className="whoami-container">
       <div className="whoami-title">Louis Xavier Sheid III</div>
@@ -12,10 +12,10 @@ const WhoAmI = () => {
       {/* <div style={{fontSize: "10rem"}}>?!</div> */}
       <div style={{paddingTop: '0.5rem'}}/>
       <div className="icon-container">
-        <div>💻</div> <div>Software Developer</div>
+        <div className="emoji">💻</div> <div className="emoji-title" id="soft-dev">Software Developer</div>
       </div>
       <div className="icon-container">
-        <div>🌴</div> <div>San Diego, California</div>
+        <div className="emoji">🌴</div> <div className="emoji-title" id="san-diego">San Diego, California</div>
       </div>
       <div style={{ padding: "0.5rem" }} />
       <div style={{ width: "15rem" }}>{description}</div>
@@ -45,3 +45,4 @@ const WhoAmI = () => {
 };
 
 export default WhoAmI;
+

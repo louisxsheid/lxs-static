@@ -9,7 +9,7 @@
 body {
   overflow-x: hidden;
   font-family: "Inconsolata";
-  background-color: white;
+  background-color: #f5feff;
 }
 
 ///////// AboutMe.tsx /////////
@@ -65,8 +65,21 @@ body {
   }
   .icon-container {
     display: flex;
+    .emoji {
+      margin-bottom: 0.25rem;
+    }
+    .emoji-title {
+      margin-top: 0.25rem;
+    }
+    #soft-dev {
+      padding-left: 0.15rem;
+    }
+    #san-diego {
+      padding-left: 0.25rem;
+    }
     .icon {
-      padding-right: 2rem;
+      padding-right: 1rem;
+      padding-top: 1rem;
       width: 2rem;
     }
   }

@@ -20,8 +20,9 @@ import travisIcon from "../../assets/icons/travis.svg";
 import jestIcon from "../../assets/icons/jest.svg";
 import electronIcon from "../../assets/icons/electron.svg";
 import webpackIcon from "../../assets/icons/webpack.svg";
-import me from "../../assets/newlouis.png";
+import me from "../../assets/louisnew.PNG";
 import linkedIn from "../../assets/linkedin.png"
+import svelteIcon from "../../assets/icons/svelte.svg"
 export {
   javascriptIcon,
   typescriptIcon,
@@ -46,5 +47,6 @@ export {
   electronIcon,
   webpackIcon,
   me,
-  linkedIn
+  linkedIn,
+  svelteIcon
 };

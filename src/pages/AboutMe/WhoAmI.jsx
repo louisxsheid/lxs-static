@@ -8,7 +8,7 @@ const WhoAmI = () => {
   return (
     <div className="whoami-container">
       <div className="whoami-title">Louis Xavier Sheid III</div>
-      <img className="whoami-pic" src={me} />
+      <img className="whoami-pic" src={"https://louisxsheid.s3.us-west-1.amazonaws.com/me.jpg"} />
       {/* <div style={{fontSize: "10rem"}}>?!</div> */}
       <div style={{paddingTop: '0.5rem'}}/>
       <div className="icon-container">

@@ -23,6 +23,7 @@ import webpackIcon from "../../assets/icons/webpack.svg";
 import me from "../../assets/louisnew.PNG";
 import linkedIn from "../../assets/linkedin.png"
 import svelteIcon from "../../assets/icons/svelte.svg"
+import flaskIcon from "../../assets/icons/flask.png"
 export {
   javascriptIcon,
   typescriptIcon,
@@ -48,5 +49,6 @@ export {
   webpackIcon,
   me,
   linkedIn,
-  svelteIcon
+  svelteIcon,
+  flaskIcon
 };

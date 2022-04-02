@@ -21,7 +21,8 @@ import {
   githubIcon,
   travisIcon,
   jestIcon,
-  svelteIcon
+  svelteIcon,
+  flaskIcon
 } from "./iconindex";
 
 const Skills = () => {
@@ -47,6 +48,7 @@ const Skills = () => {
         <div className="skill">
           <div className="sub-title">Backend</div>
           <Skill name="Node" icon={nodeIcon} />
+          <Skill name="Flask" icon={flaskIcon} />
           <Skill name="REST" icon={restIcon} />
           <Skill name="GraphQL" icon={graphqlIcon} />
           <Skill name="AWS" icon={awsIcon} />

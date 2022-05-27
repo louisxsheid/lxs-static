@@ -24,6 +24,8 @@ import me from "../../assets/louisnew.PNG";
 import linkedIn from "../../assets/linkedin.png"
 import svelteIcon from "../../assets/icons/svelte.svg"
 import flaskIcon from "../../assets/icons/flask.png"
+import firebaseIcon from "../../assets/icons/firebase.svg"
+import mochaIcon from "../../assets/icons/mocha.svg"
 export {
   javascriptIcon,
   typescriptIcon,
@@ -50,5 +52,7 @@ export {
   me,
   linkedIn,
   svelteIcon,
-  flaskIcon
+  flaskIcon,
+  firebaseIcon,
+  mochaIcon
 };

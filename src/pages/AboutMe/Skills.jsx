@@ -22,7 +22,9 @@ import {
   travisIcon,
   jestIcon,
   svelteIcon,
-  flaskIcon
+  flaskIcon,
+  firebaseIcon,
+  mochaIcon
 } from "./iconindex";
 
 const Skills = () => {
@@ -41,17 +43,19 @@ const Skills = () => {
           <div className="sub-title">Frontend</div>
           <Skill name="React" icon={reactIcon} />
           <Skill name="Svelte" icon={svelteIcon} />
-          <Skill name="HTML" icon={htmlIcon} />
-          <Skill name="CSS" icon={cssIcon} />
+          <Skill name="Redux" icon={reduxIcon} />
+          {/* <Skill name="HTML" icon={htmlIcon} />
+          <Skill name="CSS" icon={cssIcon} /> */}
           <Skill name="SASS" icon={sassIcon} />
         </div>
         <div className="skill">
-          <div className="sub-title">Backend</div>
+          <div className="sub-title">Server</div>
           <Skill name="Node" icon={nodeIcon} />
           <Skill name="Flask" icon={flaskIcon} />
-          <Skill name="REST" icon={restIcon} />
-          <Skill name="GraphQL" icon={graphqlIcon} />
+          {/* <Skill name="REST" icon={restIcon} />
+          <Skill name="GraphQL" icon={graphqlIcon} /> */}
           <Skill name="AWS" icon={awsIcon} />
+          <Skill name="Firebase" icon={firebaseIcon} />
         </div>
         <div className="skill">
           <div className="sub-title">Database</div>
@@ -62,13 +66,14 @@ const Skills = () => {
           <div className="sub-title">DevOps</div>
           <Skill name="Docker" icon={dockerIcon} />
           <Skill name="Kubernetes" icon={kubernetesIcon} />
-          {/* <Skill name="Github Actions" icon={githubIcon} /> */}
+          <Skill name="Github Actions" icon={githubIcon} />
           <Skill name="Travis CI" icon={travisIcon} />
         </div>
-        {/* <div className="skill">
-          <div>Testing</div>
+        <div className="skill">
+          <div className="sub-title">Testing</div>
           <Skill name="Jest" icon={jestIcon} />
-        </div> */}
+          <Skill name="Mocha" icon={mochaIcon} />
+        </div>
       </div>
     </div>
   );

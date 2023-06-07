@@ -5,21 +5,21 @@ import Experience from "./Experience";
 
 const AboutMe = () => {
   return (
-    <div>
+    <div style={{overflowX: 'hidden', width: '100%', display: "flex"}}>
       <FadeIn>
-        <div className="about-me-container">
-          <div className="whoami-skills">
-            <div>
               <WhoAmI />
-            </div>
-            <div>
+        {/* <div className="about-me-container"> */}
+          {/* <div className="whoami-skills"> */}
+            {/* <div> */}
+            {/* </div> */}
+            {/* <div>
               <Skills />
-            </div>
-          </div>
-          <div className="section">
+            </div> */}
+          {/* </div> */}
+          {/* <div className="section">
             <Experience />
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </FadeIn>
     </div>
   );
